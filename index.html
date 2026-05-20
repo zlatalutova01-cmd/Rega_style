@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Салон покраски волос</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="top-bar">
+
+    <div class="logo">REGA_STYLE</div>
+
+    <div class="socials">
+
+        <a href="https://www.instagram.com/rega_style?igsh=MW5mYjAxNHBsNzZ1cg==" target="_blank">
+            <img src="img/insta.jpg">
+        </a>
+
+        <a href="https://max.ru/u/f9LHodD0cOLB3mAYBHnAy0cuxM270dC_Wu7tAdoSZncrRUKs-nFQ68vxqqk" target="_blank">
+            <img src="img/MAX.png">
+        </a>
+
+        <a href="https://t.me/+79880654146" target="_blank">
+            <img src="img/tg.png">
+        </a>
+
+    </div>
+
+</div>
+
+<nav class="menu">
+
+    <a href="#services">Услуги</a>
+    <a href="#team">Видео</a>
+    <a href="#contacts">Контакты</a>
+
+</nav>
+
+<div class="header">
+    
+    <h1>Мы лучшие мастера по покраске волос!</h1>
+    <p>Качественные услуги с использованием профессиональных материалов, индивидуальный подход к каждому клиенту, </p>
+        <p>опытные мастера с многолетним стажем, гарантия результата и забота о здоровье ваших волос</p>
+    <a href="#order" class="button">Записаться</a>
+</div>
+
+<div class="section">
+    <h2>🔥 Мои модели</h2>
+
+    <div class="gallery">
+
+        <img src="img/model1.jpg" onclick="openImage(this)">
+        <img src="img/model2.jpg" onclick="openImage(this)">
+        <img src="img/model3.jpg" onclick="openImage(this)">
+        <img src="img/model4.jpg" onclick="openImage(this)">
+        <img src="img/model5.jpg" onclick="openImage(this)">
+        <img src="img/model6.jpg" onclick="openImage(this)">
+        <img src="img/model8.jpg" onclick="openImage(this)">
+        <img src="img/model10.jpg" onclick="openImage(this)">
+        <img src="img/model11.jpg" onclick="openImage(this)">
+        <img src="img/model12.jpg" onclick="openImage(this)">
+        <img src="img/model13.jpg" onclick="openImage(this)">
+        <img src="img/model14.jpg" onclick="openImage(this)">
+
+    </div>
+</div>
+
+<!-- МОДАЛКА -->
+<div class="modal" id="modal" onclick="closeImage()">
+    <img id="modal-img">
+</div>
+
+<div class="section" id="services">
+
+    <h2>✂️ Стрижки</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Женская стрижка</h3>
+        </div>
+
+        <div class="card">
+            <h3>Мужская стрижка</h3>
+        </div>
+
+        <div class="card">
+            <h3>Детская стрижка</h3>
+        </div>
+
+        <div class="card">
+            <h3>Креативные стрижки</h3>
+        </div>
+
+        <div class="card">
+            <h3>Подравнивание длины и кончиков</h3>
+        </div>
+
+        <div class="card">
+            <h3>Оформление челки</h3>
+        </div>
+    </div>
+    <h2>🎨 Окрашивание волос</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Окрашивание в один тон</h3>
+        </div>
+
+        <div class="card">
+            <h3>Тонирование волос</h3>
+        </div>
+
+        <div class="card">
+            <h3>Окрашивание корней</h3>
+        </div>
+
+        <div class="card">
+            <h3>Осветление волос</h3>
+        </div>
+
+        <div class="card">
+            <h3>AirTouch</h3>
+        </div>
+
+        <div class="card">
+            <h3>Балаяж</h3>
+        </div>
+
+        <div class="card">
+            <h3>Шатур</h3>
+        </div>
+
+        <div class="card">
+            <h3>Омбре</h3>
+        </div>
+
+        <div class="card">
+            <h3>Мелирование</h3>
+        </div>
+
+        <div class="card">
+            <h3>Контуринг волос</h3>
+        </div>
+
+          <div class="card">
+            <h3>Колорисование</h3>
+        </div>
+
+        <div class="card">
+            <h3>Скрытое окрашивание</h3>
+        </div>
+
+        <div class="card">
+            <h3>Креативное окрашивание</h3>
+        </div>
+
+        <div class="card">
+            <h3>Выход из черного</h3>
+        </div>  
+
+        <div class="card">
+            <h3>Исправление неудачного окрашивания</h3>
+        </div>  
+    </div>
+    <h2>💇‍♀️ Уход за волосами</h2>
+    <div class="cards">
+
+    <div class="card">
+        <h3>Ботокс для волос</h3>
+    </div>
+
+    <div class="card">
+        <h3>Кератиновое выпрямление</h3>
+    </div>
+
+    <div class="card">
+        <h3>Счастье для волос</h3>
+    </div>
+
+    <div class="card">
+        <h3>Восстанавливающие маски</h3>
+    </div>
+
+    <div class="card">
+        <h3>SPA-уход для волос</h3>
+    </div>
+
+    <div class="card">
+        <h3>Пилинг кожи головы</h3>
+    </div>
+    </div>
+    <h2>Химическая завивка и выпрямление</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Биозавивка</h3>
+        </div>
+        <div class="card">
+            <h3>Химическое выпрямление</h3>
+        </div>
+        <div class="card">
+            <h3>Долговременная укладка</h3>
+        </div>
+    </div>
+    <h2>Дополнительные услуги</h2>
+        <div class="cards">
+        <div class="card">
+            <h3>Мытье головы</h3>
+        </div>
+        <div class="card">
+            <h3>Консультация колориста</h3>
+        </div>
+        <div class="card">
+            <h3>Подбор домашнего ухода</h3>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="team">
+
+    <h2>🎥 Наши работы в процессе</h2>
+
+    <div class="video-row">
+
+        <div class="video-card">
+            <video src="video/vid1.mp4" controls></video>
+            <p>Блонд окрашивание</p>
+        </div>
+
+        <div class="video-card">
+            <video src="video/vid2.mp4" controls></video>
+            <p>Рыжий цвет</p>
+        </div>
+
+        <div class="video-card">
+            <video src="video/vid3.mp4" controls></video>
+            <p>Балаяж</p>
+        </div>
+
+        <div class="video-card">
+            <video src="video/vid4.mp4" controls></video>
+            <p>Тонирование</p>
+        </div>
+
+        <div class="video-card">
+            <video src="video/vid5.mp4" controls></video>
+            <p>Мелирование</p>
+        </div>
+
+        <div class="video-card">
+            <video src="video/vid6.mp4" controls></video>
+            <p>Колорирование</p>
+        </div>
+
+        <div class="video-card">
+            <video src="video/vid7.mp4" controls></video>
+            <p>Светлый оттенок</p>
+        </div>
+
+        <div class="video-card">
+            <video src="video/vid8.mp4" controls></video>
+            <p>Рыжий цвет</p>
+        </div>
+    </div>
+
+</div>
+    <h2>Отзывы моих моделей</h2>
+<div class="review-carousel">
+    <!-- ОРИГИНАЛ -->
+    <div class="review-card">
+        
+        <img src="img/review1.jpg">
+        <div class="review-info">
+            <strong>Марина</strong>
+            <p>Долго искала хорошего мастера и наконец нашла. </p>
+            <p>Окрашивание получилось очень натуральным, цвет подобрали идеально под мой тип внешности. </p>
+            <p>Волосы после процедуры мягкие, блестящие и живые, без повреждений.</p>
+        </div>
+    </div>
+
+    <div class="review-card">
+        <img src="img/review2.jpg">
+        <div class="review-info">
+            <strong>Анна</strong>
+            <p>Очень понравился сервис в салоне. </p>
+            <p>Мастер внимательно выслушал мои пожелания и предложил лучший вариант окрашивания. </p> 
+            <p>Результат превзошёл ожидания, цвет держится долго и выглядит дорого.</p>  
+        </div>
+    </div>
+
+    <div class="review-card">
+        <img src="img/review3.jpg">
+        <div class="review-info">
+            <strong>Ольга</strong>
+            <p>Записалась впервые и немного переживала, но всё прошло идеально.</p>
+            <p>Атмосфера уютная, персонал доброжелательный, а результат окрашивания просто шикарный. </p>  
+            <p>Волосы выглядят ухоженно и здорово.</p>
+        </div>
+    </div>
+
+    <div class="review-card">
+        <img src="img/review4.jpg">
+        <div class="review-info">
+            <strong>Елена</strong>
+            <p>Очень профессиональная работа. Мне сделали сложное окрашивание, и всё получилось аккуратно и без повреждений. </p>
+            <p>Цвет плавный, переходы мягкие, волосы стали выглядеть намного лучше.</p>
+        </div>
+    </div>
+
+    <div class="review-card">
+        <img src="img/review5.jpg">
+        <div class="review-info">
+            <strong>Ирина</strong>
+            <p>Хочу отметить высокий уровень сервиса и внимательность мастера.</p>
+            <p>Он учёл все мои пожелания и подобрал идеальный оттенок.</p>
+            <p>После окрашивания волосы стали гладкими и блестящими.</p>
+        </div>
+    </div>
+
+    <div class="review-card">
+        <img src="img/review6.jpg">
+        <div class="review-info">
+            <strong>Дарья</strong>
+            <p>Очень довольна результатом. </p>
+             <p>Цвет получился ровным и насыщенным, как я и хотела. </p>
+             <p>Процедура прошла комфортно, без спешки, и волосы после неё выглядят просто отлично.</p>
+        </div>
+    </div>
+
+    <div class="review-card">
+        <img src="img/review7.jpg">
+        <div class="review-info">
+            <strong>Светлана</strong>
+            <p>Салон оставил только положительные впечатления.</p>
+            <p>Мастер профессионал своего дела, всё объяснил и сделал максимально аккуратно.</p>
+            <p>Волосы стали мягкими и приобрели красивый оттенок.</p>
+        </div>
+    </div>
+
+    <div class="review-card">
+        <img src="img/review8.jpg">
+        <div class="review-info">
+            <strong>Анастасия</strong>
+            <p>Очень понравилось окрашивание, результат выглядит дорого и естественно. </p>
+            <p>Цвет подобрали идеально, волосы не испортились, наоборот стали более ухоженными и блестящими.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    const reviews = document.querySelectorAll(".review-card");
+
+function showReviewsOnScroll() {
+    const trigger = window.innerHeight * 0.85;
+
+    reviews.forEach(card => {
+        const top = card.getBoundingClientRect().top;
+
+        if (top < trigger) {
+            card.classList.add("show");
+        }
+    });
+}
+
+window.addEventListener("scroll", showReviewsOnScroll);
+showReviewsOnScroll();
+</script>
+    
+<section class="order" id="order">
+
+    <div class="order-box">
+        <h2>Оставить заявку</h2>
+
+        <p>
+            Мы свяжемся с вами в ближайшее время.  
+            Заявка уйдёт в Telegram и на почту.
+        </p>
+
+        <p>
+            Если вам не позвонят в течение дня, позвоните НАМ по телефону: +7 (988) 065-41-46.
+        </p>
+
+        <form id="orderForm">
+
+            <input type="text" id="name" placeholder="Ваше имя" required>
+            <input type="tel" id="phone" placeholder="+7..." required>
+
+            <div class="order-buttons">
+
+                <button type="button" onclick="sendAll()">
+                    📩 Отправить заявку
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+
+<script>
+
+function sendAll() {
+
+    let name = document.getElementById("name").value.trim();
+    let phone = document.getElementById("phone").value.trim();
+
+    if (!name || !phone) {
+        alert("Заполните все поля!");
+        return;
+    }
+
+    /* =========================
+       1. TELEGRAM
+    ========================= */
+
+    let token = "8566600692:AAGLKYV1uxwc2b9B3XZEHR53hpZSYAOa5Bk";
+    let chat_id = '';
+
+    let message = `📩 Новая заявка!\n👤 Имя: ${name}\n📱 Телефон: ${phone}`;
+
+    fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            chat_id: chat_id,
+            text: message
+        })
+    })
+
+
+    /* =========================
+       2. FORMSPREE (email)
+    ========================= */
+
+    fetch("https://formspree.io/f/mbdwqeyy", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            name: name,
+            phone: phone
+        })
+    });
+
+    alert("Заявка отправлена!");
+
+    document.getElementById("name").value = "";
+    document.getElementById("phone").value = "";
+}
+
+</script>
+
+
+<div class="section">
+    <h2>📍 Мы на карте</h2>
+
+    <iframe 
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d688.4047383984438!2d48.04361049833379!3d46.35710650389784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41a9059d91a99d8b%3A0x552b496106c8803b!2z0JrQvtC80LzRg9C90LjRgdGC0LjRh9C10YHQutCw0Y8g0YPQuy4sIDM3LCDQkNGB0YLRgNCw0YXQsNC90YwsINCQ0YHRgtGA0LDRhdCw0L3RgdC60LDRjyDQvtCx0LsuLCA0MTQwNDA!5e0!3m2!1sru!2sru!4v1778522848655!5m2!1sru!2srud"
+        loading="lazy">
+    </iframe>
+</div>
+
+
+<button class="scroll-to-top">↑</button>
+<script>document.addEventListener("DOMContentLoaded", () => {
+    const btn = document.querySelector(".scroll-to-top");
+
+    btn.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+});</script>
+
+<footer class="section" id="contacts">
+
+    <div class="footer-inner">
+
+        <h2 class="footer-title">REGA_STYLE</h2>
+
+        <p class="footer-text">ул.Коммунистическая д.37 г.Астрахань</p>
+        <p class="footer-text">+7 (988) 065-41-46</p>
+
+        <div class="footer-socials">
+
+            <a href="https://www.instagram.com/rega_style?igsh=MW5mYjAxNHBsNzZ1cg==" target="_blank">
+                <img src="img/insta.jpg" alt="">
+            </a>
+
+            <a href="https://max.ru/u/f9LHodD0cOLB3mAYBHnAy0cuxM270dC_Wu7tAdoSZncrRUKs-nFQ68vxqqk" target="_blank">
+                <img src="img/MAX.png" alt="">
+            </a>
+
+            <a href="https://t.me/+79880654146" target="_blank">
+                <img src="img/tg.png" alt="">
+            </a>
+
+        </div>
+
+        <p class="footer-copy">© 2026 Все права защищены</p>
+
+    </div>
+
+</footer>
+
+<script>
+function openImage(img) {
+    const modal = document.getElementById("modal");
+    const modalImg = document.getElementById("modal-img");
+
+    modal.style.display = "flex";
+    modalImg.src = img.src;
+}
+
+function closeImage() {
+    document.getElementById("modal").style.display = "none";
+}
+</script>
+</body>
+</html>
